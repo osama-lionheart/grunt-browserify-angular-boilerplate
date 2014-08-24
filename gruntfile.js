@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                                     '-r nvd3 ' +
                                     ' ';
 
-                    return 'browserify --full-paths' + requires + '> ./public/js/built/libs.js';
+                    return 'browserify' + requires + '> ./public/js/built/libs.js';
                 })()
             },
             'browserify-app': {
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
                                         '-x nvd3' +
                                         ' ';
 
-                    return 'browserify --full-paths' + externals + './public/js/app.js > ./public/js/built/app.js';
+                    return 'browserify' + externals + './public/js/app.js > ./public/js/built/app.js';
                 })()
             }
         }

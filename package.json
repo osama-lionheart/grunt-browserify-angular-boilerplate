@@ -24,7 +24,7 @@
   "devDependencies": {
     "grunt": "^0.4.4",
     "browserify": "^5.10.0",
-    "browserify-shim": "git://github.com/AlexRiedler/browserify-shim.git#4ae5b5c0915a1d9e0ca3046e8d6093f189198736",
+    "browserify-shim": "^3.7.0",
     "grunt-run": "^0.2.1",
     "brfs": "^1.0.1"
   },
